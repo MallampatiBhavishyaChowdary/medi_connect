@@ -6,13 +6,14 @@
   h2 {
       text-align: center;
       margin-bottom: 20px;
+      color: #2F7ECF; /* changed */
   }
 
   button {
       display: block;
       margin: 10px auto;
       padding: 8px 16px;
-      background-color: #007bff;
+      background-color: #34A678; /* changed */
       color: white;
       border: none;
       border-radius: 4px;
@@ -20,7 +21,7 @@
   }
 
   button:hover {
-      background-color: #0056b3;
+      background-color: #2FA3A0; /* changed */
   }
 
   ul {
@@ -30,12 +31,12 @@
       li {
           margin: 15px 0;
           padding: 10px;
-          border: 1px solid #ddd;
+          border: 1px solid #CDEAE4; /* changed */
           border-radius: 4px;
-          background-color: #f9f9f9;
+          background-color: #F3FAF8; /* changed */
 
           strong {
-              color: #333;
+              color: #1F2C2C; /* changed */
           }
 
           .doctor-details {
@@ -44,10 +45,10 @@
               p {
                   margin: 5px 0;
                   font-size: 14px;
-                  color: #555;
+                  color: #2FA3A0; /* changed */
 
                   strong {
-                      color: #000;
+                      color: #2F7ECF; /* changed */
                   }
               }
           }

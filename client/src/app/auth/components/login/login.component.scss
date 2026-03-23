@@ -1,10 +1,9 @@
-
 .login-form-container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(135deg, #f6faff 0%, #e3e9f6 100%);
+  background: linear-gradient(135deg, #E6F7F1 0%, #E2F1FB 100%); /* changed */
   padding: 24px;
   font-family: 'Inter', 'Roboto', sans-serif;
 }
@@ -14,7 +13,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 32px 28px;
-  border: 1px solid #d1d9ec;
+  border: 1px solid #C6E9E0; /* changed */
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -30,7 +29,7 @@
   margin-bottom: 22px;
   font-size: 1.9rem;
   font-weight: 700;
-  color: #22396c;
+  color: #2F7ECF; /* changed */
   letter-spacing: 0.5px;
 }
 
@@ -44,24 +43,24 @@
   margin-bottom: 6px;
   font-weight: 600;
   font-size: 15px;
-  color: #395490;
+  color: #2FA3A0; /* changed */
 }
 
 .login-form input[type="text"],
 .login-form input[type="password"] {
   width: 100%;
   padding: 12px 14px;
-  border: 1px solid #cdd7ee;
+  border: 1px solid #CBEAE3; /* changed */
   border-radius: 7px;
   font-size: 15px;
-  background: #f8fbff;
+  background: #F3FAF8; /* changed */
   transition: all 0.3s ease;
 }
 
 .login-form input:focus {
-  border-color: #23b6e7;
+  border-color: #34A678; /* changed */
   outline: none;
-  box-shadow: 0 0 0 3px rgba(35, 182, 231, 0.25);
+  box-shadow: 0 0 0 3px rgba(52, 166, 120, 0.25); /* changed */
 }
 
 .login-form button[type="submit"] {
@@ -71,7 +70,7 @@
   margin-top: 6px;
   border: none;
   border-radius: 7px;
-  background: linear-gradient(90deg, #23b6e7 0%, #395490 100%);
+  background: linear-gradient(90deg, #34A678 0%, #2F7ECF 100%); /* changed */
   color: #fff;
   font-size: 17px;
   font-weight: 600;
@@ -80,7 +79,7 @@
 }
 
 .login-form button[type="submit"]:hover {
-  background: linear-gradient(90deg, #2ecc71 0%, #23b6e7 100%);
+  background: linear-gradient(90deg, #2FA3A0 0%, #34A678 100%); /* changed */
   transform: scale(1.02);
 }
 
@@ -88,11 +87,11 @@
   margin-top: 13px;
   text-align: center;
   font-size: 15px;
-  color: #395490;
+  color: #2FA3A0; /* changed */
 }
 
 .login-form .form-footer .link {
-  color: #23b6e7;
+  color: #2F7ECF; /* changed */
   text-decoration: none;
   font-weight: 500;
   margin-left: 4px;
@@ -100,7 +99,7 @@
 }
 
 .login-form .form-footer .link:hover {
-  color: #3498db;
+  color: #34A678; /* changed */
   text-decoration: underline;
 }
 
@@ -118,10 +117,10 @@ small{
   justify-content: space-between;
   gap: 12px;
   padding: 12px 20px;
-  background: linear-gradient(90deg, #395490 0%, #23b6e7 100%);
+  background: linear-gradient(90deg, #34A678 0%, #2F7ECF 100%); /* changed */
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 8px 24px rgba(35, 182, 231, 0.15);
+  box-shadow: 0 8px 24px rgba(47, 126, 207, 0.15); /* changed */
 }
 
 .mc-navbar__brand {
@@ -141,7 +140,7 @@ small{
     font-weight: 700;
     font-size: 14px;
     color: #ffffff;
-    background: #22396c;
+    background: #2FA3A0; /* changed */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.16);
   }
 
@@ -160,7 +159,7 @@ small{
 }
 
 .mc-link {
-  color: #eaf6ff;
+  color: #E9FBFF; /* changed */
   text-decoration: none;
   font-weight: 600;
   padding: 8px 12px;
@@ -178,13 +177,13 @@ small{
 
   &.mc-link--primary {
     background: #ffffff;
-    color: #22396c;
+    color: #2FA3A0; /* changed */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 
     &:hover,
     &:focus {
-      background: #f6fbff;
-      color: #22396c;
+      background: #F3FAF8; /* changed */
+      color: #2FA3A0; /* changed */
     }
   }
 }
@@ -227,7 +226,7 @@ small{
     min-width: 180px;
     padding: 10px;
     border-radius: 10px;
-    background: linear-gradient(135deg, #395490 0%, #23b6e7 100%);
+    background: linear-gradient(135deg, #34A678 0%, #2F7ECF 100%); /* changed */
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 
     &.is-open {
